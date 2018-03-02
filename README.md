@@ -16,12 +16,11 @@ To run the app through auto reload on changes, use 'nodemon' (run - 'npm install
 
 To check if the server is running - go to 'localhost:1337' in the browser.
 
-All the database config is done in config/connection.js
-All the routes are defined in config/routes.js
-All the APIs are written in api/controller/POCController.js
-All API to DB interactions are written in api/model/POC.js
-(Each model represents a collection in the DB. Right now the collection is called POC. You will get it once you start the server)
-All CORS and related config is in config/cors.js
+1. All the database config is done in config/connection.js
+2. All the routes are defined in config/routes.js
+3. All the APIs are written in api/controller/POCController.js
+4. All API to DB interactions are written in api/model/POC.js (Each model represents a collection in the DB. Right now the collection is called POC. You will get it once you start the server)
+5. All CORS and related config is in config/cors.js
 
 Currently there are 4 APIs -
 1. GET /data - this fetches all the data in that collection
